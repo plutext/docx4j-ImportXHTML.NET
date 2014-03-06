@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>docx4j-ImportXHTML.NET</id>
+    <version>3.0.1.0</version>
+    <title>docx4j-ImportXHTML.NET</title>
+    <authors>Jason Harrop and contributors</authors>
+    <owners>Plutext Pty Ltd</owners>
+    <!--<licenseUrl>http://www.apache.org/licenses/LICENSE-2.0</licenseUrl>-->
+    <projectUrl>https://github.com/plutext/docx4j-ImportXHTML.NET</projectUrl>
+    <iconUrl>http://www.docx4java.org/logo-75.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Converts XHTML to OpenXML WordML (docx) using docx4j.NET (licensed under ASLv2) and Flying Saucer. This project is licensed under LGPL v2.1 (or later), since that's the license used by Flying Saucer.</description>
+    <releaseNotes>Release based on docx4j 3.0.1, plus...</releaseNotes>
+    <summary>Converts XHTML to OpenXML WordML (docx)</summary>
+    <copyright>Copyright Plutext Pty Ltd and contributors</copyright>
+    <tags>docx4j, docx, pptx, xlsx, HTML, XHTML, convert, import</tags>
+    <dependencies>
+      <dependency id="IKVM" version="7.3.4830.0" />
+      <dependency id="slf4j-api" version="1.7.5" />
+      <dependency id="Common.Logging" version="2.1.2" />
+      <dependency id="slf4j-NetCommonLogging" version="1.0.0" />
+      <dependency id="docx4j.NET" version="3.0.1" /> 
+    </dependencies>
+    <!--<frameworkAssemblies>
+      <frameworkAssembly assemblyName="WindowsBase"  />
+    </frameworkAssemblies>-->
+  </metadata>
+  <files>
+    <file src="lib\net20\docx4j-ImportXHTML.dll" target="lib\net35\docx4j-ImportXHTML.dll" />
+    <file src="src\samples\c#\docx\ConvertInXHTMLFragment.cs" target="Content\src\samples\c#\docx" />
+      <!-- list explicitly so we don't include docx4j.NET Content.
+           The alternative would be to delete that Content from this project (except docx4j.properties, which we want. -->
+  </files>
+</package>
