@@ -37,99 +37,104 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Common.Logging">
-      <HintPath>..\packages\Common.Logging.2.1.2\lib\net35\Common.Logging.dll</HintPath>
+      <HintPath>..\packages\Common.Logging.3.3.1\lib\net35\Common.Logging.dll</HintPath>
     </Reference>
-    <Reference Include="DocumentFormat.OpenXml, Version=2.0.5022.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <Private>True</Private>
-      <HintPath>..\packages\DocumentFormat.OpenXml.1.0\lib\DocumentFormat.OpenXml.dll</HintPath>
+    <Reference Include="Common.Logging.Core">
+      <HintPath>..\packages\Common.Logging.Core.3.3.1\lib\net35\Common.Logging.Core.dll</HintPath>
     </Reference>
     <Reference Include="docx4j">
-      <HintPath>..\packages\docx4j.NET.3.0.1.0\lib\net35\docx4j.dll</HintPath>
+      <HintPath>..\packages\docx4j.NET.6.0.1.2\lib\net35\docx4j.dll</HintPath>
     </Reference>
-    <Reference Include="docx4j-ImportXHTML, Version=3.0.1.1, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
+    <Reference Include="docx4j-ImportXHTML">
       <HintPath>lib\net20\docx4j-ImportXHTML.dll</HintPath>
     </Reference>
     <Reference Include="IKVM.AWT.WinForms">
-      <HintPath>..\packages\IKVM.7.3.4830.0\lib\IKVM.AWT.WinForms.dll</HintPath>
+      <HintPath>..\packages\IKVM.8.1.5717.0\lib\IKVM.AWT.WinForms.dll</HintPath>
     </Reference>
     <Reference Include="IKVM.OpenJDK.Beans">
-      <HintPath>..\packages\IKVM.7.3.4830.0\lib\IKVM.OpenJDK.Beans.dll</HintPath>
+      <HintPath>..\packages\IKVM.8.1.5717.0\lib\IKVM.OpenJDK.Beans.dll</HintPath>
     </Reference>
     <Reference Include="IKVM.OpenJDK.Charsets">
-      <HintPath>..\packages\IKVM.7.3.4830.0\lib\IKVM.OpenJDK.Charsets.dll</HintPath>
+      <HintPath>..\packages\IKVM.8.1.5717.0\lib\IKVM.OpenJDK.Charsets.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.OpenJDK.Cldrdata">
+      <HintPath>..\packages\IKVM.8.1.5717.0\lib\IKVM.OpenJDK.Cldrdata.dll</HintPath>
     </Reference>
     <Reference Include="IKVM.OpenJDK.Corba">
-      <HintPath>..\packages\IKVM.7.3.4830.0\lib\IKVM.OpenJDK.Corba.dll</HintPath>
+      <HintPath>..\packages\IKVM.8.1.5717.0\lib\IKVM.OpenJDK.Corba.dll</HintPath>
     </Reference>
     <Reference Include="IKVM.OpenJDK.Core">
-      <HintPath>..\packages\IKVM.7.3.4830.0\lib\IKVM.OpenJDK.Core.dll</HintPath>
+      <HintPath>..\packages\IKVM.8.1.5717.0\lib\IKVM.OpenJDK.Core.dll</HintPath>
     </Reference>
     <Reference Include="IKVM.OpenJDK.Jdbc">
-      <HintPath>..\packages\IKVM.7.3.4830.0\lib\IKVM.OpenJDK.Jdbc.dll</HintPath>
+      <HintPath>..\packages\IKVM.8.1.5717.0\lib\IKVM.OpenJDK.Jdbc.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.OpenJDK.Localedata">
+      <HintPath>..\packages\IKVM.8.1.5717.0\lib\IKVM.OpenJDK.Localedata.dll</HintPath>
     </Reference>
     <Reference Include="IKVM.OpenJDK.Management">
-      <HintPath>..\packages\IKVM.7.3.4830.0\lib\IKVM.OpenJDK.Management.dll</HintPath>
+      <HintPath>..\packages\IKVM.8.1.5717.0\lib\IKVM.OpenJDK.Management.dll</HintPath>
     </Reference>
     <Reference Include="IKVM.OpenJDK.Media">
-      <HintPath>..\packages\IKVM.7.3.4830.0\lib\IKVM.OpenJDK.Media.dll</HintPath>
+      <HintPath>..\packages\IKVM.8.1.5717.0\lib\IKVM.OpenJDK.Media.dll</HintPath>
     </Reference>
     <Reference Include="IKVM.OpenJDK.Misc">
-      <HintPath>..\packages\IKVM.7.3.4830.0\lib\IKVM.OpenJDK.Misc.dll</HintPath>
+      <HintPath>..\packages\IKVM.8.1.5717.0\lib\IKVM.OpenJDK.Misc.dll</HintPath>
     </Reference>
     <Reference Include="IKVM.OpenJDK.Naming">
-      <HintPath>..\packages\IKVM.7.3.4830.0\lib\IKVM.OpenJDK.Naming.dll</HintPath>
+      <HintPath>..\packages\IKVM.8.1.5717.0\lib\IKVM.OpenJDK.Naming.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.OpenJDK.Nashorn">
+      <HintPath>..\packages\IKVM.8.1.5717.0\lib\IKVM.OpenJDK.Nashorn.dll</HintPath>
     </Reference>
     <Reference Include="IKVM.OpenJDK.Remoting">
-      <HintPath>..\packages\IKVM.7.3.4830.0\lib\IKVM.OpenJDK.Remoting.dll</HintPath>
+      <HintPath>..\packages\IKVM.8.1.5717.0\lib\IKVM.OpenJDK.Remoting.dll</HintPath>
     </Reference>
     <Reference Include="IKVM.OpenJDK.Security">
-      <HintPath>..\packages\IKVM.7.3.4830.0\lib\IKVM.OpenJDK.Security.dll</HintPath>
+      <HintPath>..\packages\IKVM.8.1.5717.0\lib\IKVM.OpenJDK.Security.dll</HintPath>
     </Reference>
     <Reference Include="IKVM.OpenJDK.SwingAWT">
-      <HintPath>..\packages\IKVM.7.3.4830.0\lib\IKVM.OpenJDK.SwingAWT.dll</HintPath>
+      <HintPath>..\packages\IKVM.8.1.5717.0\lib\IKVM.OpenJDK.SwingAWT.dll</HintPath>
     </Reference>
     <Reference Include="IKVM.OpenJDK.Text">
-      <HintPath>..\packages\IKVM.7.3.4830.0\lib\IKVM.OpenJDK.Text.dll</HintPath>
+      <HintPath>..\packages\IKVM.8.1.5717.0\lib\IKVM.OpenJDK.Text.dll</HintPath>
     </Reference>
     <Reference Include="IKVM.OpenJDK.Tools">
-      <HintPath>..\packages\IKVM.7.3.4830.0\lib\IKVM.OpenJDK.Tools.dll</HintPath>
+      <HintPath>..\packages\IKVM.8.1.5717.0\lib\IKVM.OpenJDK.Tools.dll</HintPath>
     </Reference>
     <Reference Include="IKVM.OpenJDK.Util">
-      <HintPath>..\packages\IKVM.7.3.4830.0\lib\IKVM.OpenJDK.Util.dll</HintPath>
+      <HintPath>..\packages\IKVM.8.1.5717.0\lib\IKVM.OpenJDK.Util.dll</HintPath>
     </Reference>
     <Reference Include="IKVM.OpenJDK.XML.API">
-      <HintPath>..\packages\IKVM.7.3.4830.0\lib\IKVM.OpenJDK.XML.API.dll</HintPath>
+      <HintPath>..\packages\IKVM.8.1.5717.0\lib\IKVM.OpenJDK.XML.API.dll</HintPath>
     </Reference>
     <Reference Include="IKVM.OpenJDK.XML.Bind">
-      <HintPath>..\packages\IKVM.7.3.4830.0\lib\IKVM.OpenJDK.XML.Bind.dll</HintPath>
+      <HintPath>..\packages\IKVM.8.1.5717.0\lib\IKVM.OpenJDK.XML.Bind.dll</HintPath>
     </Reference>
     <Reference Include="IKVM.OpenJDK.XML.Crypto">
-      <HintPath>..\packages\IKVM.7.3.4830.0\lib\IKVM.OpenJDK.XML.Crypto.dll</HintPath>
+      <HintPath>..\packages\IKVM.8.1.5717.0\lib\IKVM.OpenJDK.XML.Crypto.dll</HintPath>
     </Reference>
     <Reference Include="IKVM.OpenJDK.XML.Parse">
-      <HintPath>..\packages\IKVM.7.3.4830.0\lib\IKVM.OpenJDK.XML.Parse.dll</HintPath>
+      <HintPath>..\packages\IKVM.8.1.5717.0\lib\IKVM.OpenJDK.XML.Parse.dll</HintPath>
     </Reference>
     <Reference Include="IKVM.OpenJDK.XML.Transform">
-      <HintPath>..\packages\IKVM.7.3.4830.0\lib\IKVM.OpenJDK.XML.Transform.dll</HintPath>
+      <HintPath>..\packages\IKVM.8.1.5717.0\lib\IKVM.OpenJDK.XML.Transform.dll</HintPath>
     </Reference>
     <Reference Include="IKVM.OpenJDK.XML.WebServices">
-      <HintPath>..\packages\IKVM.7.3.4830.0\lib\IKVM.OpenJDK.XML.WebServices.dll</HintPath>
+      <HintPath>..\packages\IKVM.8.1.5717.0\lib\IKVM.OpenJDK.XML.WebServices.dll</HintPath>
     </Reference>
     <Reference Include="IKVM.OpenJDK.XML.XPath">
-      <HintPath>..\packages\IKVM.7.3.4830.0\lib\IKVM.OpenJDK.XML.XPath.dll</HintPath>
+      <HintPath>..\packages\IKVM.8.1.5717.0\lib\IKVM.OpenJDK.XML.XPath.dll</HintPath>
     </Reference>
     <Reference Include="IKVM.Runtime">
-      <HintPath>..\packages\IKVM.7.3.4830.0\lib\IKVM.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="IKVM.Runtime.JNI">
-      <HintPath>..\packages\IKVM.7.3.4830.0\lib\IKVM.Runtime.JNI.dll</HintPath>
+      <HintPath>..\packages\IKVM.8.1.5717.0\lib\IKVM.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="slf4j-api">
-      <HintPath>..\packages\slf4j-api.1.7.5\lib\net35\slf4j-api.dll</HintPath>
+      <HintPath>..\packages\slf4j-api.1.7.5.4\lib\net35\slf4j-api.dll</HintPath>
     </Reference>
-    <Reference Include="slf4j-NetCommonLogging">
-      <HintPath>..\packages\slf4j-NetCommonLogging.1.0.0\lib\net35\slf4j-NetCommonLogging.dll</HintPath>
+    <Reference Include="slf4j-NetCommonLogging, Version=1.7.5.4, Culture=neutral, PublicKeyToken=caeb68ac682d6c33, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>lib\net20\slf4j-NetCommonLogging.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -140,31 +145,21 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="src\main\c#\Plutext\Docx4NET\WordprocessingDocumentFactory.cs" />
-    <Compile Include="src\main\c#\Plutext\Docx4NET\WordprocessingMLPackageFactory.cs" />
-    <Compile Include="src\main\c#\Plutext\Docx4NET\WordprocessingMLPackageUtils.cs" />
-    <Compile Include="src\main\c#\Plutext\Pptx4NET\PresentationDocumentFactory.cs" />
-    <Compile Include="src\main\c#\Plutext\Pptx4NET\PresentationMLPackageFactory.cs" />
-    <Compile Include="src\main\c#\Plutext\PropertiesConfigurator.cs" />
-    <Compile Include="src\main\c#\Plutext\SaveFromJavaUtils.cs" />
-    <Compile Include="src\main\c#\Plutext\Xlsx4NET\SpreadsheetDocumentFactory.cs" />
-    <Compile Include="src\main\c#\Plutext\Xlsx4NET\SpreadsheetMLPackageFactory.cs" />
-    <Compile Include="src\samples\c#\Docx4NET\ContentControlBind.cs" />
-    <Compile Include="src\samples\c#\Docx4NET\DocxToHTML.cs" />
-    <Compile Include="src\samples\c#\Docx4NET\DocxToPDF.cs" />
-    <Compile Include="src\samples\c#\Docx4NET\InteropDocx.cs" />
-    <Compile Include="src\samples\c#\Docx4NET\MailMergeField.cs" />
-    <Compile Include="src\samples\c#\docx\ConvertInXHTMLFragment.cs" />
+    <Compile Include="src\main\c_sharp\PropertiesConfigurator.cs" />
+    <Compile Include="src\samples\c_sharp\docx\ConvertInXHTMLFragment.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="packages.config" />
+    <None Include="packages.config">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="src\samples\resources\ContentControlBind\binding-simple.docx" />
+    <None Include="src\samples\resources\docx4j-ImportXHTML.properties" />
     <None Include="src\samples\resources\docx4j.properties" />
     <None Include="src\samples\resources\sample-docx.docx" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="src\samples\c#\pptx\" />
+    <Folder Include="src\samples\c_sharp\pptx\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="src\samples\resources\ContentControlBind\binding-simple-data.xml" />

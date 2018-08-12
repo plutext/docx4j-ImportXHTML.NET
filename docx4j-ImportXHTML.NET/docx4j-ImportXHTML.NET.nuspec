@@ -1,35 +1,33 @@
-<?xml version="1.0"?>
-<package >
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
     <id>docx4j-ImportXHTML.NET</id>
-    <version>3.0.1.0</version>
+    <version>6.0.1</version>
     <title>docx4j-ImportXHTML.NET</title>
     <authors>Jason Harrop and contributors</authors>
     <owners>Plutext Pty Ltd</owners>
-    <!--<licenseUrl>http://www.apache.org/licenses/LICENSE-2.0</licenseUrl>-->
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <projectUrl>https://github.com/plutext/docx4j-ImportXHTML.NET</projectUrl>
     <iconUrl>http://www.docx4java.org/logo-75.png</iconUrl>
-    <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Converts XHTML to OpenXML WordML (docx) using docx4j.NET (licensed under ASLv2) and Flying Saucer. This project is licensed under LGPL v2.1 (or later), since that's the license used by Flying Saucer.</description>
-    <releaseNotes>Release based on docx4j 3.0.1, plus...</releaseNotes>
     <summary>Converts XHTML to OpenXML WordML (docx)</summary>
+    <releaseNotes>Release based on docx4j-ImportXHTML 6.0.1</releaseNotes>
     <copyright>Copyright Plutext Pty Ltd and contributors</copyright>
     <tags>docx4j, docx, pptx, xlsx, HTML, XHTML, convert, import</tags>
     <dependencies>
-      <dependency id="IKVM" version="7.3.4830.0" />
-      <dependency id="slf4j-api" version="1.7.5" />
-      <dependency id="Common.Logging" version="2.1.2" />
-      <dependency id="slf4j-NetCommonLogging" version="1.0.0" />
-      <dependency id="docx4j.NET" version="3.0.1" /> 
+      <dependency id="IKVM" version="8.1.5717" />
+      <dependency id="slf4j-api" version="1.7.5.4" />
+      <dependency id="Common.Logging" version="3.3.1" />
+      <dependency id="Common.Logging.Core" version="3.3.1" />
+      <dependency id="slf4j-NetCommonLogging" version="1.7.5.2" />
+      <dependency id="docx4j.NET" version="6.0.1.2" />
     </dependencies>
-    <!--<frameworkAssemblies>
-      <frameworkAssembly assemblyName="WindowsBase"  />
-    </frameworkAssemblies>-->
   </metadata>
   <files>
-    <file src="lib\net20\docx4j-ImportXHTML.dll" target="lib\net35\docx4j-ImportXHTML.dll" />
-    <file src="src\samples\c#\docx\ConvertInXHTMLFragment.cs" target="Content\src\samples\c#\docx" />
-      <!-- list explicitly so we don't include docx4j.NET Content.
-           The alternative would be to delete that Content from this project (except docx4j.properties, which we want. -->
+    <file src="content\src\resources\docx4j-ImportXHTML.properties" target="content\src\resources\docx4j-ImportXHTML.properties" />
+    <file src="content\src\resources\docx4j.properties" target="content\src\resources\docx4j.properties" />
+    <file src="content\src\samples\ConvertInXHTMLFragment.cs" target="content\src\samples\ConvertInXHTMLFragment.cs" />
+    <file src="lib\net35\docx4j-ImportXHTML.dll" target="lib\net35\docx4j-ImportXHTML.dll" />
+    <file src="lib\net35\slf4j-NetCommonLogging.dll" target="lib\net35\slf4j-NetCommonLogging.dll" />
   </files>
 </package>
