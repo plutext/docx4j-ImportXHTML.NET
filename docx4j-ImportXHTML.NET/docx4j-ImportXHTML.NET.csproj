@@ -36,16 +36,16 @@
     <StartupObject>docx4jImportXHTML.NET.samples.docx.ConvertInXHTMLFragment</StartupObject>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Common.Logging">
-      <HintPath>..\packages\Common.Logging.3.3.1\lib\net35\Common.Logging.dll</HintPath>
+    <Reference Include="Common.Logging, Version=2.1.2.0, Culture=neutral, PublicKeyToken=af08829b84f0328e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Common.Logging.2.1.2\lib\net35\Common.Logging.dll</HintPath>
     </Reference>
-    <Reference Include="Common.Logging.Core">
-      <HintPath>..\packages\Common.Logging.Core.3.3.1\lib\net35\Common.Logging.Core.dll</HintPath>
+    <Reference Include="docx4j, Version=6.0.1.85, Culture=neutral, PublicKeyToken=caeb68ac682d6c33, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\docx4j.NET.6.0.1.4\lib\net35\docx4j.dll</HintPath>
     </Reference>
-    <Reference Include="docx4j">
-      <HintPath>..\packages\docx4j.NET.6.0.1.2\lib\net35\docx4j.dll</HintPath>
-    </Reference>
-    <Reference Include="docx4j-ImportXHTML">
+    <Reference Include="docx4j-ImportXHTML, Version=6.0.1.2, Culture=neutral, PublicKeyToken=caeb68ac682d6c33, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
       <HintPath>lib\net20\docx4j-ImportXHTML.dll</HintPath>
     </Reference>
     <Reference Include="IKVM.AWT.WinForms">
@@ -134,7 +134,7 @@
     </Reference>
     <Reference Include="slf4j-NetCommonLogging, Version=1.7.5.4, Culture=neutral, PublicKeyToken=caeb68ac682d6c33, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>lib\net20\slf4j-NetCommonLogging.dll</HintPath>
+      <HintPath>..\packages\slf4j-NetCommonLogging.1.7.5.4\lib\net35\slf4j-NetCommonLogging.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -145,7 +145,22 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="src\main\c_sharp\PropertiesConfigurator.cs" />
+    <Compile Include="src\main\c_sharp\Plutext\Docx4NET\WordprocessingMLPackageFactory.cs" />
+    <Compile Include="src\main\c_sharp\Plutext\Docx4NET\WordprocessingMLPackageUtils.cs" />
+    <Compile Include="src\main\c_sharp\Plutext\Pptx4NET\PresentationMLPackageFactory.cs" />
+    <Compile Include="src\main\c_sharp\Plutext\PropertiesConfigurator.cs" />
+    <Compile Include="src\main\c_sharp\Plutext\SaveFromJavaUtils.cs" />
+    <Compile Include="src\main\c_sharp\Plutext\Xlsx4NET\SpreadsheetMLPackageFactory.cs" />
+    <Compile Include="src\samples\c_sharp\Docx4NET\ContentControlBind.cs" />
+    <Compile Include="src\samples\c_sharp\Docx4NET\Desensitize.cs" />
+    <Compile Include="src\samples\c_sharp\Docx4NET\DocxToHTML.cs" />
+    <Compile Include="src\samples\c_sharp\Docx4NET\DocxToPDF\ConversionException.cs" />
+    <Compile Include="src\samples\c_sharp\Docx4NET\DocxToPDF\Converter.cs" />
+    <Compile Include="src\samples\c_sharp\Docx4NET\DocxToPDF\DocxToPDF.cs" />
+    <Compile Include="src\samples\c_sharp\Docx4NET\HelloWorldDocx.cs" />
+    <Compile Include="src\samples\c_sharp\Docx4NET\LoggingConfigurator.cs" />
+    <Compile Include="src\samples\c_sharp\Docx4NET\MailMergeField.cs" />
+    <Compile Include="src\samples\c_sharp\Docx4NET\TocUpdate.cs" />
     <Compile Include="src\samples\c_sharp\docx\ConvertInXHTMLFragment.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

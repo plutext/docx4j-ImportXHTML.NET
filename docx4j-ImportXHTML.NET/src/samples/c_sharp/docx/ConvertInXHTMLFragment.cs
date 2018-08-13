@@ -90,18 +90,14 @@ namespace docx4jImportXHTML.NET.samples.docx
 
         public static ILog configureLogging()
         {
-            //ikvm.runtime.Startup.addBootClassPathAssembly(
-            //    System.Reflection.Assembly.GetAssembly(
-            //        typeof(com.plutext.slf4jNetCommonsLogging.NetCommonsLoggerFactory)));
 
-            //ikvm.runtime.Startup.addBootClassPathAssembly(
-            //    System.Reflection.Assembly.GetAssembly(
-            //        typeof(org.slf4j.impl.StaticLoggerBinder)));
+            ikvm.runtime.Startup.addBootClassPathAssembly(
+                System.Reflection.Assembly.GetAssembly(
+                    typeof(org.slf4j.impl.StaticLoggerBinder)));
 
             ikvm.runtime.Startup.addBootClassPathAssembly(
                 System.Reflection.Assembly.GetAssembly(
                     typeof(org.slf4j.LoggerFactory)));
-
             
 
             NameValueCollection commonLoggingproperties = new NameValueCollection();

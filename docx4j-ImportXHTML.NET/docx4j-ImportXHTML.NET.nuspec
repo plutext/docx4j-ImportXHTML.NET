@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
     <id>docx4j-ImportXHTML.NET</id>
-    <version>6.0.1</version>
+    <version>6.0.1.2</version>
     <title>docx4j-ImportXHTML.NET</title>
     <authors>Jason Harrop and contributors</authors>
     <owners>Plutext Pty Ltd</owners>
@@ -17,17 +17,15 @@
     <dependencies>
       <dependency id="IKVM" version="8.1.5717" />
       <dependency id="slf4j-api" version="1.7.5.4" />
-      <dependency id="Common.Logging" version="3.3.1" />
-      <dependency id="Common.Logging.Core" version="3.3.1" />
-      <dependency id="slf4j-NetCommonLogging" version="1.7.5.2" />
-      <dependency id="docx4j.NET" version="6.0.1.2" />
+      <dependency id="Common.Logging" version="2.1.2" />
+      <dependency id="slf4j-NetCommonLogging" version="1.7.5.4" />
+      <dependency id="docx4j.NET" version="6.0.1.4" />
     </dependencies>
   </metadata>
   <files>
-    <file src="content\src\resources\docx4j-ImportXHTML.properties" target="content\src\resources\docx4j-ImportXHTML.properties" />
-    <file src="content\src\resources\docx4j.properties" target="content\src\resources\docx4j.properties" />
-    <file src="content\src\samples\ConvertInXHTMLFragment.cs" target="content\src\samples\ConvertInXHTMLFragment.cs" />
-    <file src="lib\net35\docx4j-ImportXHTML.dll" target="lib\net35\docx4j-ImportXHTML.dll" />
-    <file src="lib\net35\slf4j-NetCommonLogging.dll" target="lib\net35\slf4j-NetCommonLogging.dll" />
+    <file src="src\samples\resources\docx4j-ImportXHTML.properties" target="content\src\resources\docx4j-ImportXHTML.properties" />
+    <file src="src\samples\resources\docx4j.properties" target="content\src\resources\docx4j.properties" />
+    <file src="src\samples\c_sharp\docx\ConvertInXHTMLFragment.cs" target="content\src\samples\ConvertInXHTMLFragment.cs" />
+    <file src="lib\net20\docx4j-ImportXHTML.dll" target="lib\net35\docx4j-ImportXHTML.dll" />
   </files>
 </package>
